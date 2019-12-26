@@ -1,0 +1,22 @@
+{
+  "name": "ukiyo",
+  "displayName": "Ukiyo",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "zcherrycola",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ukiyo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ukiyo-color-theme.json"
+      }
+    ]
+  }
+}
