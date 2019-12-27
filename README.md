@@ -1,14 +1,16 @@
 # Ukiyo
 
-<p align="center">
+<div align="center">
 <img src="./images/ukiyo_logo.png" height="200px" width="200px"/>
-</p>
+</div>
 
 A VS Code theme designed with a balanced color palette to be easy on the eyes and provide functional syntax highlighting.
 
 Also includes support for italics on reserved keywords and function names.
 
 ## JavaScript
+
+<div align='center'>
 
 ![JavaScript Example](./images/javascript_file.png)
 
@@ -25,6 +27,8 @@ Also includes support for italics on reserved keywords and function names.
 ## JSON
 
 ![JSON Example](./images/JSON_file.png)
+
+</div>
 
 ## Contributions
 
