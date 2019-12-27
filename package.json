@@ -1,7 +1,8 @@
 {
   "name": "ukiyo",
   "displayName": "Ukiyo Theme",
-  "description": "",
+  "description": "A VS Code theme designed with a balanced color palette to be easy on the eyes and provide functional syntax highlighting.",
+  "icon": "images/ukiyo_logo_128.png",
   "version": "0.4.0",
   "repository": {
     "url": "https://www.github.com/zcericola/ukiyo-theme"

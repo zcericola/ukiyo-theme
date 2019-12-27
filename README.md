@@ -1,7 +1,7 @@
 # Ukiyo
 
 <p align="center">
-<img src="./ukiyo_logo.png" height="300px" width="300px"/>
+<img src="./images/ukiyo_logo.png" height="200px" width="200px"/>
 </p>
 
 A VS Code theme designed with a balanced color palette to be easy on the eyes and provide functional syntax highlighting.
