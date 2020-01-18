@@ -107,7 +107,7 @@
     "peekViewResult.matchHighlightBackground": "#121212",
     "statusBar.debuggingBackground": "#15b6a6",
     "statusBar.debuggingForeground": "#121212",
-    "editorUnnecessaryCode.border": "#eb7f7fba",
+    // "editorUnnecessaryCode.border": "#eb7f7f", //dashed red border under unused variables (messes with linter rules)
     "debugIcon.startForeground": "#15b6a6",
     "debugIcon.pauseForeground": "#10bed5",
     "debugIcon.stepBackForeground": "#10bed5",
@@ -143,7 +143,7 @@
         "fontStyle": "italic"
       },
       "name": "Keyword",
-      "scope": "keyword, keyword.operator.expression.typeof, variable.language.this, storage, support.function.construct.output.php, keyword.operator.new, markup.inline.raw.string.markdown, keyword.operator.expression.import.js"
+      "scope": "keyword, keyword.operator.expression.typeof, variable.language.this, storage, support.function.construct.output.php, keyword.operator.new, markup.inline.raw.string.markdown, keyword.operator.expression.import.js, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js"
     },
     {
       "settings": {
@@ -158,7 +158,7 @@
         "fontStyle": "italic"
       },
       "name": "Function",
-      "scope": "variable.other.property.php, variable.other.member.php, entity.name.function.php, meta.function-call, meta.property-value, meta.selector, entity.name.function.ts, entity.name.function.js, entity.name.function.tsx, entity, meta"
+      "scope": "variable.other.property.php, variable.other.member.php, entity.name.function.php, meta.function-call, meta.property-value, meta.selector, entity.name.function.ts, entity.name.function.js, entity.name.function.tsx, entity, meta, meta.embedded.expression.js"
     },
     {
       "settings": {
@@ -172,7 +172,7 @@
         "foreground": "#f9af8f"
       },
       "name": "TS Types",
-      "scope": "meta.type.annotation.ts, support.type.primitive.ts, entity.name.type.ts, meta.type.annotation.ts, variable.other.jsdoc"
+      "scope": "meta.type.annotation.ts, support.type.primitive.ts, entity.name.type.ts, meta.type.annotation.ts, variable.other.jsdoc, support.variable.property.js, entity.other.attribute-name.js"
     },
     {
       "settings": {
@@ -186,7 +186,7 @@
         "foreground": "#727272"
       },
       "name": "Comment",
-      "scope": "comment, punctuation.definition.comment, punctuation.separator.key-value, punctuation.separator, meta.template.expression.js, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, markup.underline.link.markdown, punctuation.definition.metadata.markdown"
+      "scope": "comment, punctuation.definition.comment, punctuation.separator, markup.underline.link.markdown, punctuation.definition.metadata.markdown"
     },
     {
       "settings": {
@@ -200,28 +200,28 @@
         "foreground": "#10bed5"
       },
       "name": "Variable Alternative",
-      "scope": "entity.other.attribute-name.pseudo-class.css, constant.other.php, markup.italic.markdown, punctuation.definition.italic.markdown, string.regexp, entity.other.attribute-name.pseudo-element.css, meta.image.inline.markdown, string.other.link.description.markdown, variable.other.readwrite.ts, meta.object.member.ts, meta.objectliteral.ts, meta.object.member.ts, meta.objectliteral.ts, meta.var.expr.ts, source.ts"
+      "scope": "entity.other.attribute-name.pseudo-class.css, constant.other.php, markup.italic.markdown, punctuation.definition.italic.markdown, string.regexp, entity.other.attribute-name.pseudo-element.css, meta.image.inline.markdown, string.other.link.description.markdown, variable.other.readwrite.ts, meta.object.member.ts, meta.objectliteral.ts, meta.object.member.ts, meta.objectliteral.ts, meta.var.expr.ts, source.ts, support.type.property-name.css"
     },
     {
       "settings": {
         "foreground": "#eb7f7f"
       },
       "name": "Number",
-      "scope": "constant.numeric, keyword.other.unit, markup.quote, constant.language"
+      "scope": "constant.numeric, keyword.other.unit, markup.quote, constant.language, constant.character.escape.json, constant.character.escape, constant.character.escape.backslash.regexp"
     },
     {
       "settings": {
         "foreground": "#15b6a6"
       },
       "name": "Support (Third party libraries, etc)",
-      "scope": "support.function, entity.other.attribute-name.id, markup.italic, punctuation.definition.italic, markup.changed, markup.changed.git_gutter, support.constant.property-value"
+      "scope": "support.function, entity.other.attribute-name.id, markup.italic, punctuation.definition.italic, markup.changed, markup.changed.git_gutter, support.constant.property-value, variable.other.property.js"
     },
     {
       "settings": {
         "foreground": "#d0cd7b"
       },
       "name": "Operator",
-      "scope": "keyword.operator, constant.character.escape, constant.character.escape.json, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, keyword.operator, punctuation.accessor.js, punctuation.definition.block.tag.jsdoc, storage.type.class.jsdoc, invalid.deprecated.entity.other.attribute-name.html"
+      "scope": "keyword.operator, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, keyword.operator, punctuation.accessor.js, punctuation.definition.block.tag.jsdoc, storage.type.class.jsdoc, invalid.deprecated.entity.other.attribute-name.html"
     },
 
     {
@@ -229,21 +229,21 @@
         "foreground": "#d3d3d3"
       },
       "name": "Brackets",
-      "scope": "punctuation.definition.block, meta.parameters, punctuation.definition.parameters, meta.brace.round, punctuation.definition.dictionary, constant.character.escape.backslash.regexp, punctuation.section, punctuation.terminator.statement, variable.other.property.js, support.variable.property.dom.js, punctuation.definition.parameters, punctuation.definition.array, support.type.property-name.json, entity.name.function, meta.require, support.function.any-method, meta.tag.sgml.html, punctuation.section.embedded, variable.interpolation, variable.object.property.ts, variable.object.property.tsx, meta.brace.square, punctuation.definition.array, punctuation.definition.binding-pattern.object.js, meta.selectionset.graphql, meta.object.member.ts, punctuation, meta, text.html, source.yaml, string.unquoted.plain.out.yaml, markup.underline.link.markdown, punctuation.definition.metadata.markdown, meta.objectliteral.ts, punctuation.separator"
+      "scope": "punctuation.definition.block, meta.parameters, punctuation.definition.parameters, meta.brace.round, punctuation.definition.dictionary, punctuation.section, punctuation.terminator.statement, support.variable.property.dom.js, punctuation.definition.parameters, punctuation.definition.array, entity.name.function, meta.require, support.function.any-method, meta.tag.sgml.html, punctuation.section.embedded, variable.interpolation, variable.object.property.ts, variable.object.property.tsx, meta.brace.square, punctuation.definition.array, punctuation.definition.binding-pattern.object.js, meta.selectionset.graphql, meta.object.member.ts, punctuation, meta, text.html, source.yaml, string.unquoted.plain.out.yaml, markup.underline.link.markdown, punctuation.definition.metadata.markdown, meta.objectliteral.ts, punctuation.separator, punctuation.separator.key-value"
     },
     {
       "settings": {
         "foreground": "#d3d3d3"
       },
       "name": "Property",
-      "scope": "entity.name.tag.reference, meta.embedded.block.php, meta.embedded.line.php, keyword.other.phpdoc.php, meta.separator, variable.object.property.ts, variable.object.property.tsx, variable.other.property.js, support.variable.property.dom.js, support.type.property-name.json, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, entity.name.type.instance.jsdoc, variable.graphql, meta.property-name.css, meta.property-name.js, meta.object.property.ts, meta.object-literal.key, entity.tag"
+      "scope": "entity.name.tag.reference, meta.embedded.block.php, meta.embedded.line.php, keyword.other.phpdoc.php, meta.separator, variable.object.property.ts, variable.object.property.tsx, support.variable.property.dom.js, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, entity.name.type.instance.jsdoc, variable.graphql, meta.property-name.css, meta.property-name.js, meta.object.property.ts, meta.object-literal.key, entity.tag"
     },
     {
       "settings": {
         "foreground": "#d0cd7b"
       },
       "name": "JSON and YAML",
-      "scope": "support.type.property-name.json,  entity.name.tag.yaml"
+      "scope": "support.type.property-name.json, entity.name.tag.yaml"
     }
   ],
   "colorSpaceName": "sRGB"
