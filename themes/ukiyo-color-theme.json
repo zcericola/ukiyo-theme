@@ -172,7 +172,7 @@
         "foreground": "#f9af8f"
       },
       "name": "TS Types",
-      "scope": "meta.type.annotation.ts, support.type.primitive.ts, entity.name.type.ts, meta.type.annotation.ts, variable.other.jsdoc, support.variable.property.js, entity.other.attribute-name.js"
+      "scope": "meta.type.annotation.ts, support.type.primitive.ts, support.type.primitive.tsx, entity.name.type.ts, meta.type.annotation.ts, variable.other.jsdoc, support.variable.property.js, support.variable.property.tsx, support.variable.property.ts, entity.other.attribute-name.js"
     },
     {
       "settings": {
